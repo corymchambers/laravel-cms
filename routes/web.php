@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test', function () {
+    echo "testing auto deploy";
+});
+
 //Next route
